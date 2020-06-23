@@ -360,31 +360,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1928716922 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5807375436383965242, guid: 1efe595a7fb20ec409b7ca444a45675f,
-    type: 3}
-  m_PrefabInstance: {fileID: 5807375436066009664}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1928716923
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928716922}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d7c4cf797e337dc40a830272a5ed7ea4, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &3490354431330773885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -535,16 +510,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sparty
       objectReference: {fileID: 0}
-    - target: {fileID: 5807375436383965244, guid: 1efe595a7fb20ec409b7ca444a45675f,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: -304736523
-      objectReference: {fileID: 0}
-    - target: {fileID: 5807375436383965244, guid: 1efe595a7fb20ec409b7ca444a45675f,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5807375436383965245, guid: 1efe595a7fb20ec409b7ca444a45675f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -599,16 +564,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5807375436383965245, guid: 1efe595a7fb20ec409b7ca444a45675f,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5807375436383965245, guid: 1efe595a7fb20ec409b7ca444a45675f,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1efe595a7fb20ec409b7ca444a45675f, type: 3}
