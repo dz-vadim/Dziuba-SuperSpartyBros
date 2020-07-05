@@ -15,11 +15,11 @@ TextureImporter:
     21300020: Sparty_SS_3
     21300022: Sparty_SS_4
     21300024: Sparty_SS_5
-    21300026: Sparty_Idle_1
-    21300028: Sparty_Idle_2
-    21300030: Sparty_Run_1
-    21300032: Sparty_Run_2
-    21300034: Sparty_Run_3
+    21300026: Sparty_Idle1
+    21300028: Sparty_Idle2
+    21300030: Sparty_Walk1
+    21300032: Sparty_Walk2
+    21300034: Sparty_Walk3
     21300036: Sparty_Jump
   externalObjects: {}
   serializedVersion: 9
@@ -103,7 +103,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sparty_Idle_1
+      name: Sparty_Idle1
       rect:
         serializedVersion: 2
         x: 0
@@ -117,13 +117,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44c774b6f593c224fbe69ceadccc1141
+      spriteID: 8b488064b04957f4d850129d9a96323f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sparty_Idle_2
+      name: Sparty_Idle2
       rect:
         serializedVersion: 2
         x: 16
@@ -137,13 +137,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0bd2658c78d76b41a15d35ae5b6ddea
+      spriteID: be9bb5d69d1543848817a002306b837f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sparty_Run_1
+      name: Sparty_Walk1
       rect:
         serializedVersion: 2
         x: 32
@@ -157,13 +157,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d0755c58d9b3074fbeb7035ef7f9284
+      spriteID: b32ae45d4e6d1274b8ebfaddc081d700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sparty_Run_2
+      name: Sparty_Walk2
       rect:
         serializedVersion: 2
         x: 48
@@ -177,13 +177,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffc1c95465edf7b408f834fffcdf286c
+      spriteID: c0d9cf5c93a0f924da337c1393d140c8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sparty_Run_3
+      name: Sparty_Walk3
       rect:
         serializedVersion: 2
         x: 64
@@ -197,7 +197,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d460d538101f9e54091e7c4474313b55
+      spriteID: 37198621aad477541b541510300048ca
       vertices: []
       indices: 
       edges: []
@@ -217,7 +217,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70283d60e768d314aaed8d9acd364afb
+      spriteID: 0e1ee4197167e0e408c2767581f9e1c2
       vertices: []
       indices: 
       edges: []
@@ -225,7 +225,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 50bf0a682c9b38548bd0bbcbf2796f87
+    spriteID: 
     vertices: []
     indices: 
     edges: []
